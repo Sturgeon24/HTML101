@@ -1,0 +1,11 @@
+Timings and Roadmap
+webdev->scope of focus frontend
+->frontend(GUI)->html css[2M] js[3M]
+->Backend(DBMS)->not now
+html-hyper text markup language->skeleton->skleton imageand text positions 
+css->cascading style sheets->how it looks  
+js->functions->Behaviour 
+
+Frame work
+->eg. react(Not exactly,but important)[5M],angular,vue
+->we need git[6M]

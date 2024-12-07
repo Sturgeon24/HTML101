@@ -1,0 +1,10 @@
+URl->uniform resource locator 
+
+client-Server model
+-message over internet (http) -> one's with s have encryption.
+->DOMs
+-> 
+ ->coding practices 
+
+ just if anyone wondering bout the error in h1 everything is bold usually all heading tags have similar mechanism
+b and strong dont work
