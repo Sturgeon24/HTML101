@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="css/togglecode.css">
+    
+</head>
+<body>
+    <label class="switch" >
+        <input type="checkbox" unchecked id="colorToggle">
+        <span class="slider round"></span>
+      </label>
+   <h1><u>Rate my website</u></h1> 
+   <form>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname " name ="fname"><br>
+    <label for="lname">Last  Name:</label>
+    <input type="text" id="lname " name ="lname"><br>
+    <label for="brnch">Branch:</label>
+    <input type="text" id="brnch" name ="brnch"><br>
+    <br>
+    <p><h3><u>Rate the following out of 10</u></h3></p>
+    <label for="strct">Structure:</label>
+    <input type="number" id="struct" name ="struct" min="1" max="10"><br>
+    <label for="info">Information:</label>
+    <input type="number" id="info" name ="info" min="1" max="10"><br>
+    <label for="ov">Overall:</label>
+    <input type="number" id="ov" name ="ov" min="1" max="10"><br>
+    <br>
+    <input type="submit" value="Done!">
+    <input type="reset">
+    </form>
+    <script type="text/javascript" id="colorToggle" async
+    src="jsscript/togglelogic.js">
+  
+    </script>
+</body>
+</html>
