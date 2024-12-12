@@ -4,15 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/togglecode.css">
 </head>
-<body style="background:black" text="white"> 
+<body> 
+    <label class="switch" >
+        <input type="checkbox" unchecked id="colorToggle">
+        <span class="slider round"></span>
+      </label>
     <h2><u>Basics</u></h2>
 <hr>
     <p>
-        HTML is a simple markup language used to define the structure of web pages. 
-        <i>It consists of elements like tags, attributes, and text content.</i> 
-        Mastering HTML is the first step in building web applications, 
-        <i>laying the foundation for further skills in web development.</i>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Basics of HTML</title>
+            <hr><a href="as3.html" style="color:rgb(64, 67, 224)"><h2>see all posts</a></h2><br>
+        </head>
+        <body>
+            <header>
+                <h1>Basics of HTML</h1>
+            </header>
+        
+            <main>
+                <section>
+                    <h2>What is HTML?</h2>
+                    <p>HTML, or HyperText Markup Language, is a straightforward and essential markup language used to define the structure of web pages. It serves as the backbone of the internet, allowing developers to organize content into a format that browsers can display effectively. By using HTML, you can create everything from simple web pages to complex applications.</p>
+                </section>
+        
+                <section>
+                    <h2>The Components of HTML</h2>
+                    <p>HTML consists of three main components: <strong>elements</strong>, <strong>attributes</strong>, and <strong>text content</strong>. Elements are the building blocks of HTML, defined using tags like <code>&lt;h1&gt;</code> for headings or <code>&lt;p&gt;</code> for paragraphs. Attributes provide additional information about elements, such as the <code>src</code> attribute for an image or the <code>href</code> attribute for a link. Finally, text content refers to the actual information displayed on the web page.</p>
+                </section>
+        
+                <section>
+                    <h2>How HTML Structures Content</h2>
+                    <p>HTML elements are used to structure content in a hierarchical manner. For example, headings (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>) indicate the importance of content, while <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> are used to group or style sections of the page. Lists (<code>&lt;ul&gt;</code> and <code>&lt;ol&gt;</code>), tables (<code>&lt;table&gt;</code>), and forms (<code>&lt;form&gt;</code>) further enrich the organization of information. This structure ensures that content is readable and accessible.</p>
+                </section>
+        
+                <section>
+                    <h2>HTML and Browsers</h2>
+                    <p>Web browsers, like Chrome, Firefox, and Safari, interpret HTML code and render it visually for users. They read HTML from top to bottom and display elements based on the structure and tags used.</p>
+                </section>
+            </main>
+        
+            <footer>
+                <p>&copy; 2024 Web Development Basics</p>
+            </footer>
+        </body>
+        </html>
+        
     </p>
+    <script type="text/javascript" id="colorToggle" async
+    src="jsscript/togglelogic.js">
+  
+    </script>
 </body>
 </html>
